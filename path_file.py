@@ -1,0 +1,2 @@
+data_folder = '/YOUR/DATA/FOLDER/PATH/GOES/HERE/'
+figure_folder = '/YOUR/FIGURE/SAVE/PATH/GOES/HERE/'
