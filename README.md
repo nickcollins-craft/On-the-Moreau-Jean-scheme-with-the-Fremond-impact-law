@@ -1,7 +1,7 @@
 # On the Moreau–Jean scheme with the Frémond impact law: energy conservation and dissipation properties for elastodynamics with contact, impact and friction
 This repository stores the codes associated with the paper "On the Moreau–Jean scheme with the Frémond impact law: energy conservation and dissipation properties for elastodynamics with contact, impact and friction", by V. Acary and N.A. Collins-Craft, available on HAL: [⟨hal-04230941⟩](https://hal.science/hal-04230941)
  
-The codes are also available on [Zenodo](https://doi.org/10.5281/zenodo.10949880).
+The codes are also available on [Zenodo](https://doi.org/10.5281/zenodo.10949879).
  
 In order to run the codes, the user first requires a working installation of Python 3 (the codes were run on Python 3.12.1). We strongly recommend using a package manager such as [Anaconda](https://www.anaconda.com/download) or [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) to manage the installation.
 Then, the user must install [meshio](https://github.com/nschloe/meshio) (the codes were run on meshio 5.3.4).
@@ -33,3 +33,5 @@ One of the codes ("block_mesh_plot.py") also requires images that are included i
 This repository also contains the Gmsh mesh file used to run the sliding block simulation, so if Gmsh is not installed, it should in principle still be possible to run the simulation, if not make any modifications to the geometry. However meshio is strictly required in order to read in the mesh file.
  
 Contact: vincent[dot]acary[at]inria[dot]fr or nicholas[dot]collins-craft[at]inria[dot]fr
+
+This software copyright &copy; Inria 2024 and is provided under the Apache 2.0 licence.
